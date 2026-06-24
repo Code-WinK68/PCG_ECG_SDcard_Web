@@ -1,4 +1,4 @@
-# ECG + PCG dual-core recorder v6 — PCG master 40:1, binary SD capture, post-record Web
+# ECG + PCG + SD + Web
 
 ## Mục tiêu đồng bộ
 
