@@ -1,0 +1,24 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "i2s_mic.c"
+        "ecg_adc.c"
+        "sd_writer.c"
+        "file_crc32.c"
+        "web_server.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        esp_adc
+        esp_timer
+        esp_driver_i2s
+        esp_driver_gpio
+        esp_driver_spi
+        esp_driver_sdmmc
+        esp_driver_sdspi
+        fatfs
+        esp_wifi
+        esp_event
+        esp_netif
+        esp_http_server
+        nvs_flash
+)

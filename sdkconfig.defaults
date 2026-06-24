@@ -1,0 +1,6 @@
+# Deterministic timing for ESP32-WROOM-32.
+CONFIG_FREERTOS_HZ=1000
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+
+# app_main holds only orchestration; the independent postprocess task has 12 KB.
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
